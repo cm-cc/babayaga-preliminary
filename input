@@ -1,0 +1,19 @@
+fs pp
+arun off
+ecms 0.77
+thmin 20.0
+thmax 160.0
+zmax 10.0
+emin 0.14
+nev 10000
+path test-run
+ntuple no
+model matched
+ord alpha
+mode weighted
+nphot -1
+seed 4242
+eps 1.d-4
+iffpi 1
+what_ffpi cmd3
+run
