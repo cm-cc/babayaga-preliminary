@@ -26,8 +26,11 @@
 *.a
 *.lib
 *.o
+collierConfig.cmake
+*/build/*
 
 # Executables
 *.exe
 *.out
 *.app
+babayaga*
