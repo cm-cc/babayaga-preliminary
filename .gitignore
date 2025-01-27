@@ -27,7 +27,7 @@
 *.lib
 *.o
 collierConfig.cmake
-*/build/*
+build/
 
 # Executables
 *.exe
