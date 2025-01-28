@@ -121,7 +121,7 @@ pack: # use only to release BABAYAGA
 clean:
 	rm -f $(OBJECTS) *.a
 deepclean:
-	rm -rf $(OBJECTS) *.a $(EXE) *~ form/*~ $(LTDIR)/lib64/libooptools.a $(LTDIR)/build/ $(CLLDIR)build/ $(CLLDIR)lib/libcollier.a
+	rm -rf $(OBJECTS) *.a $(EXE) *~ form/*~ $(LTDIR)/lib64/ $(LTDIR)/build/ $(LTDIR)/bin $(LTDIR)/lib64/ $(LTDIR)/include/ $(CLLDIR)build/ $(CLLDIR)lib/ $(CLLDIR)collierConfig.cmake $(CLLDIR)collierConfigVersion.cmake $(CLLDIR)include/*
 
 # C version of ranlux by Martin Luscher
 # http://luscher.web.cern.ch/luscher/ranlux/index.html
